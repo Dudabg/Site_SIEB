@@ -477,6 +477,7 @@ nav li.dropdown:hover .dropdown-content {
     padding: 0;
     background-color: rgb(105, 0, 175);
     margin-bottom: 70px;
+
 }
 
 #sobre_senac {
@@ -487,6 +488,7 @@ nav li.dropdown:hover .dropdown-content {
     max-width: 950px;
     font-size: 25px;
     color: white;
+
 }
 
 #sobre_senac_titulo {
@@ -512,6 +514,7 @@ nav li.dropdown:hover .dropdown-content {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #rodape_sobre {
@@ -521,6 +524,7 @@ nav li.dropdown:hover .dropdown-content {
     color: white;
     position: relative;
     bottom: 0px;
+    align-self: auto;
 }
 
 #copyright_sobre {
