@@ -908,133 +908,87 @@ button[type="submit"]:hover {
 
 /*NOSSOS PROGRAMAS*/
 
+/* Estilos para o título "Nossos Serviços" */
+/* Estilos para o título "Nossos Serviços" */
 #nossos_serviços_titulo {
     text-align: center;
     font-family: 'Open Sans';
-    font-size: 70px;
-    margin-top: 100px;
+    font-size: 4.5em; /* Tamanho de fonte responsivo usando 'em' */
+    margin-top: 3em; /* Margem superior responsiva usando 'em' */
     color: #fff;
-    font-size: 4.5em; /* Exemplo de tamanho de fonte usando 'em' para adaptabilidade */
-    margin-top: 3em; /* Exemplo de margem usando 'em' para adaptabilidade */
-    margin-bottom: 1em; /* Exemplo de margem usando 'em' para adaptabilidade */
-
 }
 
-    
-
+/* Estilos para a imagem dentro da div "senac" */
 #senac img {
-    width: 350px;
-    height: 250px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente proporcionalmente à largura */
     display: block;
     margin: 0 auto;
-
 }
 
+/* Estilos para a div "div_da_imagem" */
 #div_da_imagem {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 160px;
+    margin-top: 5%; /* Margem superior responsiva usando 'em' */
+    margin-bottom: 8%; /* Margem inferior responsiva usando 'em' */
     background-color: #fff;
-    width: 100%;
-    /* Ajuste a largura conforme necessário */
-    height: 280px;
-    /* Ajuste a altura conforme necessário */
+    width: 90%; /* Largura responsiva usando porcentagem */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
     padding-top: 20px;
-    /* Ajuste o valor conforme necessário */
     padding-bottom: 10px;
-    /* Ajuste o valor conforme você julgar necessário */
 }
 
+/* Estilos para o parágrafo dentro de "nossos_serviços_paragrafo" */
 #nossos_serviços_paragrafo {
     text-align: center;
     font-family: 'Open Sans';
-    font-size: 35px;
-    margin-top: 50px;
+    font-size: 2em; /* Tamanho de fonte responsivo usando 'em' */
+    margin-top: 3%; /* Margem superior responsiva usando porcentagem */
+    margin-left: 5%; /* Margem esquerda responsiva usando porcentagem */
+    margin-right: 5%; /* Margem direita responsiva usando porcentagem */
     color: #fff;
-    margin-left: 45px;
-    margin-right: 45px;
 }
 
-
-
+/* Estilos para os elementos com id "servico1", "servico2", "servico3" e "servico4" */
 #servico1,
 #servico2,
 #servico3,
 #servico4 {
-    float: left;
     width: 48%;
-    margin-bottom: 40px;
+    margin-bottom: 4%; /* Margem inferior responsiva usando porcentagem */
     box-sizing: border-box;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 5%; /* Margem superior responsiva usando porcentagem */
     color: #fff;
 }
 
+/* Estilos para o elemento com id "servico5" */
 #servico5 {
-
     width: 48%;
-    box-sizing: border-box;
-    margin: 0 auto;
-    /* Isso centraliza os elementos horizontalmente */
-    margin-top: 200px;
-    margin-bottom: 350px;
+    margin: 0 auto; /* Isso centraliza os elementos horizontalmente */
+    margin-top: 8%; /* Margem superior responsiva usando porcentagem */
+    margin-bottom: 10%; /* Margem inferior responsiva usando porcentagem */
     text-align: center;
-    float: none;
     color: #fff;
 }
 
-
-
-#planejamento img {
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-    border: 5px solid rgb(243, 239, 14);
-    border-radius: 10px;
-
-}
-
-#acesso img {
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-    border: 5px solid rgb(243, 239, 14);
-    border-radius: 10px;
-
-}
-
-#personalização img {
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-    border: 5px solid rgb(243, 239, 14);
-    border-radius: 10px;
-}
-
-#recursos img {
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-    border: 5px solid rgb(243, 239, 14);
-    border-radius: 10px;
-}
-
+/* Estilos para as imagens dentro das divs "planejamento", "acesso", "personalização", "recursos" e "acompanhamento" */
+#planejamento img,
+#acesso img,
+#personalização img,
+#recursos img,
 #acompanhamento img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente proporcionalmente à largura */
     display: block;
     margin: 0 auto;
-    /* Isso centraliza a imagem horizontalmente */
-    width: 400px;
-    height: 300px;
     border: 5px solid rgb(243, 239, 14);
     border-radius: 10px;
-    margin-top: 1300px;
-    margin-bottom: 40px;
-
+    margin-top: 5%; /* Margem superior responsiva usando porcentagem */
+    margin-bottom: 5%; /* Margem inferior responsiva usando porcentagem */
 }
+
 
 #rodape_nossos {
     font-size: 25px;
